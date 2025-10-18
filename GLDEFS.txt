@@ -1,0 +1,9 @@
+brightmap texture "df/standinglamp/lampshade"
+{
+	map "df/standinglamp/brightmap"
+}
+
+brightmap texture "df/standinglamp/lightbulb"
+{
+	map "df/standinglamp/brightmap"
+}
