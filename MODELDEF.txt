@@ -1,256 +1,409 @@
+Model ZDP_CollisionBox
+{
+	Path "models/ZDoomProps"
+	Model 0 "collisionBox.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
+	BaseFrame
+}
+
 Model ZDP_OfficeDesk
 {
 	Path "models/ZDoomProps"
-	Model 0 "desk_office.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "desk_office.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeDesk_Drawers
 {
 	Path "models/ZDoomProps"
-	Model 0 "desk_office_drawers.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "desk_office.iqm"
+	AngleOffset 90
+	Model 1 "desk_office_drawers.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_ChairWoodFancy
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_wood_fancy.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "chair_wood_fancy.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_ChairWoodSimple
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_wood_simple.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "chair_wood_simple.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_Stool
 {
 	Path "models/ZDoomProps"
-	Model 0 "stool.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "stool.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
-Model ZDP_TableWoodRect
+Model ZDP_TableWoodRect_Rough
 {
 	Path "models/ZDoomProps"
-	Model 0 "table_wood_rect.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "table_wood_rect_rough.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
+}
+
+Model ZDP_TableWoodRect_Smooth
+{
+	Path "models/ZDoomProps"
+	Model 0 "table_wood_rect_smooth.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
+}
+
+Model ZDP_TableWoodSquare
+{
+	Path "models/ZDoomProps"
+	Model 0 "table_wood_square.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_TableWoodRound
 {
 	Path "models/ZDoomProps"
-	Model 0 "table_wood_round.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "table_wood_round.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
+}
+
+Model ZDP_TableCoffee
+{
+	Path "models/ZDoomProps"
+	Model 0 "table_coffee.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_Generator
 {
 	Path "models/ZDoomProps"
-	Model 0 "generator.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "generator.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_FilingCabinetGreen
 {
 	Path "models/ZDoomProps"
-	Model 0 "filing_cabinet.md3"
-
-	FrameIndex M000 A 0 0
-	FrameIndex M000 B 0 1
-	FrameIndex M000 C 0 2
-	FrameIndex M000 D 0 3
+	Model 0 "filing_cabinet.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "cabinet_idle:0"
+	BaseFrame
 }
 
 Model ZDP_FilingCabinetWhite
 {
 	Path "models/ZDoomProps"
-	Model 0 "filing_cabinet.md3"
+	Model 0 "filing_cabinet.iqm"
+	AngleOffset 90
 	Skin 0 "SW11_1"
-
-	FrameIndex M000 A 0 0
-	FrameIndex M000 B 0 1
-	FrameIndex M000 C 0 2
-	FrameIndex M000 D 0 3
+	DontCullBackFaces
+	Frame M000 A 0 "cabinet_idle:0"
+	BaseFrame
 }
 
 Model ZDP_FilingCabinetTan
 {
 	Path "models/ZDoomProps"
-	Model 0 "filing_cabinet.md3"
+	Model 0 "filing_cabinet.iqm"
+	AngleOffset 90
 	Skin 0 "SW12_4"
-
-	FrameIndex M000 A 0 0
-	FrameIndex M000 B 0 1
-	FrameIndex M000 C 0 2
-	FrameIndex M000 D 0 3
+	DontCullBackFaces
+	Frame M000 A 0 "cabinet_idle:0"
+	BaseFrame
 }
 
 Model ZDP_PC_Modern
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_modern_complete.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_modern.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_modern.complete:0"
 }
 
 Model ZDP_PC_modern_keyboard
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_modern_keyboard.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_modern.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_modern.keyboard:0"
 }
 
 Model ZDP_PC_modern_monitor
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_modern_monitor.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_modern.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_modern.monitor:0"
 }
 
 Model ZDP_PC_modern_tower
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_modern_tower.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_modern.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_modern.tower:0"
 }
 
 Model ZDP_PC_retro
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_retro_complete.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_retro.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_retro.complete:0"
 }
 
 Model ZDP_PC_retro_keyboard
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_retro_keyboard.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_retro.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_retro.keyboard:0"
 }
 
 Model ZDP_PC_retro_monitor
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_retro_monitor.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_retro.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_retro.monitor:0"
 }
 
 Model ZDP_PC_retro_tower
 {
 	Path "models/ZDoomProps"
-	Model 0 "pc_retro_tower.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "pc_retro.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "pc_retro.tower:0"
 }
 
 Model ZDP_OfficeChair_Black
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
+	Model 1 "chair_office_armrests.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Green
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office.md3"
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
+	SurfaceSkin 0 1 "GRASS1"
 	SurfaceSkin 0 2 "GRASS1"
-	FrameIndex M000 A 0 0
+	Model 1 "chair_office_armrests.iqm"
+	AngleOffset 90
+	SurfaceSkin 1 1 "GRASS1"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Blue
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office.md3"
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
+	SurfaceSkin 0 1 "CEIL4_2"
 	SurfaceSkin 0 2 "CEIL4_2"
-	FrameIndex M000 A 0 0
+	Model 1 "chair_office_armrests.iqm"
+	AngleOffset 90
+	SurfaceSkin 1 1 "CEIL4_2"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Red
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office.md3"
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
+	SurfaceSkin 0 1 "FLOOR1_6"
 	SurfaceSkin 0 2 "FLOOR1_6"
-	FrameIndex M000 A 0 0
+	Model 1 "chair_office_armrests.iqm"
+	AngleOffset 90
+	SurfaceSkin 1 1 "FLOOR1_6"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Black_Norests
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office_noarms.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Green_Norests
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office_noarms.md3"
-	SurfaceSkin 0 1 "GRASS1"
-	FrameIndex M000 A 0 0
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
+	SurfaceSkin 0 1 "FLOOR1_6"
+	SurfaceSkin 0 2 "FLOOR1_6"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Blue_Norests
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office_noarms.md3"
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
 	SurfaceSkin 0 1 "CEIL4_2"
-	FrameIndex M000 A 0 0
+	SurfaceSkin 0 2 "CEIL4_2"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_OfficeChair_Red_Norests
 {
 	Path "models/ZDoomProps"
-	Model 0 "chair_office_noarms.md3"
+	Model 0 "chair_office.iqm"
+	AngleOffset 90
 	SurfaceSkin 0 1 "FLOOR1_6"
-	FrameIndex M000 A 0 0
+	SurfaceSkin 0 2 "FLOOR1_6"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_Lamp_Standing
 {
 	Path "models/ZDoomProps"
-	Model 0 "lamp_standing.md3"
-
-	FrameIndex M000 A 0 0 //off
-	FrameIndex M000 B 0 1 //turn off
-	
-	SurfaceSkin 0 3 "df/standinglamp/lightbulb"
-	SurfaceSkin 0 2 "df/standinglamp/lampshade"
-	FrameIndex M000 C 0 0 //on
-	FrameIndex M000 D 0 1 //turn on
+	Model 0 "lamp_standing.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "standinglamp_idle:0"
+	BaseFrame
 }
 
 Model ZDP_PottedPlant
 {
 	Path "models/ZDoomProps"
-	Model 0 "pottedPlant.md3"
-	Scale 1.5 1.5 1.5
-	FrameIndex M000 A 0 0
+	Model 0 "pottedPlant.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_Armchair_Black
 {
 	Path "models/ZDoomProps"
-	Model 0 "armchair.md3"
-	FrameIndex M000 A 0 0
+	Model 0 "armchair.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_Armchair_Blue
 {
 	Path "models/ZDoomProps"
-	Model 0 "armchair.md3"
+	Model 0 "armchair.iqm"
+	AngleOffset 90
 	SurfaceSkin 0 0 "CEIL4_2"
-	FrameIndex M000 A 0 0
+	SurfaceSkin 0 1 "CEIL4_2"
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
 }
 
 Model ZDP_Toilet
 {
 	Path "models/ZDoomProps"
-	Model 0 "toilet.md3"
+	Model 0 "toilet.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "toilet_idle:0"
+	BaseFrame
+}
 
-	FrameIndex M000 A 0 0 // lid & seat closed
-	FrameIndex M000 B 0 1 // lid open
-	FrameIndex M000 C 0 2 // lid & seat open
-	FrameIndex M000 D 0 3 // lid & seat open, water rising
+Model ZDP_Sink
+{
+	Path "models/ZDoomProps"
+	Model 0 "sink.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "sink_idle:0"
+	BaseFrame
+}
+
+Model ZDP_SinkWithBase
+{
+	Path "models/ZDoomProps"
+	Model 0 "sink.iqm"
+	Model 1 "sink_base.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "sink_idle:0"
+	BaseFrame
+}
+
+Model ZDP_Trashcan
+{
+	Path "models/ZDoomProps"
+	Model 0 "trashcan.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "trashcan_idle:0"
+	BaseFrame
+}
+
+Model ZDP_TrashcanCylindrical
+{
+	Path "models/ZDoomProps"
+	Model 0 "trashcan_cyl.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "trashcanCyl_idle:0"
+	BaseFrame
+}
+
+Model ZDP_Stretcher
+{
+	Path "models/ZDoomProps"
+	Model 0 "stretcher.iqm"
+	AngleOffset 90
+	DontCullBackFaces
+	Frame M000 A 0 "idle:0"
+	BaseFrame
 }
