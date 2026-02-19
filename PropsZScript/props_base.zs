@@ -162,7 +162,7 @@ class ZDP_Base : Actor abstract
 				bShootable = true;
 				break;
 		}
-		Console.Printf("\cy%s\c- | Solid \cd%d\c- | Canpass \cd%d\c- | Shootable \cd%d\c- | NonShootable \cd%d\c- | NoBlockMap \cd%d\c- | NoInteraction \cd%d\c-",
+		/*Console.Printf("\cy%s\c- | Solid \cd%d\c- | Canpass \cd%d\c- | Shootable \cd%d\c- | NonShootable \cd%d\c- | NoBlockMap \cd%d\c- | NoInteraction \cd%d\c-",
 			self.GetClassName(),
 			bSolid,
 			bCanpass,
@@ -170,7 +170,7 @@ class ZDP_Base : Actor abstract
 			bNonShootable,
 			bNoBlockmap,
 			bNoInteraction
-		);
+		);*/
 	}
 
 	States {
