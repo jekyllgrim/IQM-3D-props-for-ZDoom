@@ -7,7 +7,7 @@ A pack of 3D models made for Doom mappers, using the [IQM](https://zdoom.org/w/i
 The models use textures from Doom II which are NOT included in the project itself. The textures will be automatically applied if doom2.wad (or another resource containing textures with the same names) is loaded.
 
 ### Licenses and attribution
-- Code: [MIT license[(PropsZScript/LICENSE.txt). Basically, this means that anyone can use it for any purpose (including modifying and commercial use), as long as Agent_Ash is credited as the original author.
+- Code: [MIT license](PropsZScript/LICENSE.txt). Basically, this means that anyone can use it for any purpose (including modifying and commercial use), as long as Agent_Ash is credited as the original author.
 - Models: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 Basically, this means that both the code and the models can be used by anyone for any purpose (even commercially), but Agent_Ash must be credited as the original author.
 
